@@ -93,6 +93,7 @@ def img2vector(filename):  #图像转换为测试向量
             returnVect[0, 32*i+j] = int(lineStr[j])
     return returnVect
 
+
 def handwritingClassTest(): #手写数字识别
     hwLabels = []
     trainingFileList = listdir('trainingDigits')  #将trainingDigits目录下的文件存储在trainingFileList列表中
